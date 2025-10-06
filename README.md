@@ -2,6 +2,9 @@
 
 A modern, intuitive redesign of the OpenVAS vulnerability scanner interface, focused on improving usability for novice users while maintaining professional functionality.
 
+Visit https://openvas-redesign.vercel.app to view the application, or install manually 
+with the steps below.
+
 ## System Requirements
 
 - **Node.js**: Version 18.0 or higher
@@ -10,7 +13,7 @@ A modern, intuitive redesign of the OpenVAS vulnerability scanner interface, foc
 - **RAM**: 2GB minimum (4GB recommended)
 - **Operating System**: Windows 10+, macOS 10.15+, or Linux (Ubuntu 20.04+)
 
-## Installation
+## Manual Installation
 
 ### 1. Clone or Download the Repository
 
@@ -112,7 +115,6 @@ This redesign addresses usability issues identified in the original OpenVAS.
 
 ### Design Improvements
 
-- **Modern Dark Theme**: Professional aesthetic reduces eye strain
 - **Card-Based Layouts**: Information grouped in clear, scannable sections
 - **Color-Coded Severity**: Consistent color scheme (Red=Critical, Orange=High, Yellow=Medium, Blue=Low)
 - **Responsive Design**: Works on various screen sizes
