@@ -59,10 +59,10 @@ This application implements the complete OpenVAS vulnerability scanning workflow
 - Enter any credentials and click "Sign in"
 
 ### T2: Scan Localhost for Maximum Vulnerabilities
-1. Click **Targets** → **New Target**
+1. Click **Scans** → **New Scan**
 2. Enter Name: "Localhost Scan", Hosts: "127.0.0.1"
 3. Click **Save**
-4. Click **Tasks** → **New Task**
+4. Click **Scans** → **New Scans**
 5. Enter Name: "Localhost Vulnerability Scan", select your target, choose "Full and fast" scan config
 6. Click **Save**, then click the play button (▶) to start
 7. Wait for scan completion (progress bar shows status)
@@ -73,7 +73,7 @@ This application implements the complete OpenVAS vulnerability scanning workflow
 
 ### T4: Scan the Whole Network
 1. Create a new target with Hosts: "192.168.1.0/24" (CIDR notation)
-2. Create and run a task with this target
+2. Create and run a scan with this target
 
 ### T5: Evaluate Results and Form Prioritized Remediation Plan
 1. Click **Results** → select a completed scan
